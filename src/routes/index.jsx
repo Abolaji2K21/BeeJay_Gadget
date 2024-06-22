@@ -4,37 +4,14 @@
 // import Features from "../pages/features";
 // import ContactUs from "../pages/contactUs";
 
+import Layout from "../components/layout/layout";
+
 export const ROUTE = [
 
     {
-        // path: "/",
-        // element: <Layout/>,
-        // children: [
-        //     {
-        //         path: "/",
-        //         element: <Home/>
-        //     },
-        //
-        //     {
-        //         path: "/home",
-        //         element: <Home/>,
-        //     },
-        //     {
-        //         path: "/about",
-        //         element: <About/>
-        //     },
-        //     {
-        //         path: "/features",
-        //         element: <Features/>
-        //     },
-        //     {
-        //         path: "/contact-Us",
-        //         element: <ContactUs/>
-        //     }
-
-        // ]
-
-
+        path: "/",
+        element: <Layout/>,
+        children: []
     }
 
 
