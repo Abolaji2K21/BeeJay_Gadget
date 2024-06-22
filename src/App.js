@@ -5,7 +5,6 @@ import {ROUTE} from "./routes";
 function App() {
   return (
           useRoutes(ROUTE)
-
   );
 }
 
