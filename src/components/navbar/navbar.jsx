@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HiShoppingCart } from "react-icons/hi";
 import { HiMenu } from "react-icons/hi";
-import myLogo from "../../components/asset/myLogo.png";
+import myLogo from "../../components/asset/My_Logo-removebg-preview.png";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -9,16 +9,16 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center p-4 shadow-md'>
             <div className='flex items-center'>
-                <img src={myLogo} alt="Shopper Logo" className='h-8 w-8 mr-2'/>
-                <p className='text-lg font-semibold'>Shopper</p>
+                <img src={myLogo} alt="Gadget Logo" className='h-8 w-8 mr-2'/>
+                <p className='text-lg font-bold '>BeeJay_Gadget</p>
             </div>
-            <div className='hidden md:flex space-x-6 text-lg'>
-                <li className='hover:text-gray-600 cursor-pointer'>Home</li>
-                <li className='hover:text-gray-600 cursor-pointer'>New</li>
-                <li className='hover:text-gray-600 cursor-pointer'>Iphone</li>
-                <li className='hover:text-gray-600 cursor-pointer'>Samsung</li>
-                <li className='hover:text-gray-600 cursor-pointer'>About us</li>
-                <li className='hover:text-gray-600 cursor-pointer'>Contact</li>
+            <div className='hidden md:flex space-x-6 '>
+                <li className='hover:text-blue-700 cursor-pointer'>Home</li>
+                <li className='hover:text-blue-700 cursor-pointer'>New</li>
+                <li className='hover:text-blue-700 cursor-pointer'>Iphone Shopping</li>
+                <li className='hover:text-blue-700 cursor-pointer'>Samsung Shopping</li>
+                <li className='hover:text-blue-700 cursor-pointer'>About us</li>
+                <li className='hover:text-blue-700 cursor-pointer'>Contact</li>
             </div>
             <div className='flex items-center space-x-4'>
                 <button className='bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600'>Login</button>
